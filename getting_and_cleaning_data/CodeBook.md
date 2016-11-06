@@ -1,8 +1,8 @@
-1 subjects
-2 activity_labels
-3 tBodyAcc_mean_X_avg
-4 tBodyAcc_mean_Y_avg
-5 tBodyAcc_mean_Z_avg
+1, subjects
+2, activity_labels
+3, tBodyAcc_mean_X_avg
+4, tBodyAcc_mean_Y_avg
+5, tBodyAcc_mean_Z_avg
 6 tBodyAcc_std_X_avg
 7 tBodyAcc_std_Y_avg
 8 tBodyAcc_std_Z_avg
