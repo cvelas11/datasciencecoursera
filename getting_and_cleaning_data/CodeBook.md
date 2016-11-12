@@ -1,3 +1,14 @@
+==================================================================
+Coursera Data Science Specialization Getting and Cleaning Data Course Project
+==================================================================
+Carlos Velásquez
+==================================================================
+
+# Transformations and features:
+
+Each feature related to the mean and std of each measuremente from  Human Activity Recognition Using Smartphones Dataset Version 1.0 were averaged. The features are the following:
+
+
 1 subjects
 2 activity_labels
 3 tBodyAcc_mean_X_avg
