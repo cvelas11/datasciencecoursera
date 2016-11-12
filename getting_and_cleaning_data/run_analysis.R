@@ -59,6 +59,6 @@ names(avg)[1] = 'subjects'
 names(avg)[2] = 'activity_labels'
 
 write.table(names(avg), file = 'avg_features.txt', row.names = TRUE) 
-write.table(avg, row.names = FALSE, file= 'tdiy.txt')
+write.table(avg, row.names = FALSE, file= 'tidy.txt')
 
-P = read.table('tdiy.txt', header = TRUE)
+P = read.table('tidy.txt', header = TRUE)
