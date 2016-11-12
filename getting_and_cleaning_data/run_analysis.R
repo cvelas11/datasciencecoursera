@@ -55,9 +55,10 @@ new_data_set_grouped =group_by(new_data_set,subjects,activity_labels)
 avg = summarize_each(new_data_set_grouped, funs(mean))
 avg = select(avg, -label)
 names(avg)= paste0(names(avg),"_avg")
-names(avg$subjects_avg) = 'subjects'
-names(avg$activity_labels_avg) = 'activity_labels'
+names(avg)[1] = 'subjects'
+names(avg)[2] = 'activity_labels'
 
 write.table(names(avg), file = 'avg_features.txt', row.names = TRUE) 
 write.table(avg, row.names = FALSE, file= 'tdiy.txt')
 
+P = read.table('tdiy.txt', header = TRUE)
